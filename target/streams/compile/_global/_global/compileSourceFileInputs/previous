@@ -1,0 +1,1 @@
+["sbt.Task[scala.collection.immutable.Map[java.lang.String, scala.collection.Seq[scala.Tuple2[java.nio.file.Path, sbt.nio.FileStamp]]]]",{"2.12.11":{"hashes":[["/Users/akhilrelekar/HKUST/semB 2020/Flink Independent Proj (MSBD5014)/Stream_Query_Processor/src/main/scala/SocketWindowWordCount.scala","e78e3a478ea2385e6994b2bc5965bca43c830673"]],"lastModifiedTimes":[]}}]
