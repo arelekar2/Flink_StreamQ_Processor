@@ -1,4 +1,4 @@
-package source
+package dataSource
 
 import org.apache.flink.table.api.DataTypes
 import org.apache.flink.table.api.scala.StreamTableEnvironment
@@ -17,6 +17,7 @@ object TableConnector {
               .property("zookeeper.connect", "localhost:2181")
               .property("bootstrap.servers", "localhost:9092")
               .startFromEarliest())
+          .inAppendMode()
           .withFormat(
               new Csv()
                 .fieldDelimiter('|')

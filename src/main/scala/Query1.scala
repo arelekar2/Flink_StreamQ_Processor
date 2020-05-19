@@ -3,7 +3,7 @@ import org.apache.flink.streaming.api.scala._
 import org.apache.flink.table.api.scala._
 import org.apache.flink.table.api.{EnvironmentSettings, Table, Tumble}
 import org.apache.flink.types.Row
-import source.{ConsumerFactory, TableConnector}
+import dataSource.TableConnector
 
 object Query1 {
     val tableName: String = "lineitem"
